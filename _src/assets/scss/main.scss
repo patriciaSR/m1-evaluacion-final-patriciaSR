@@ -1,6 +1,7 @@
 /* core imports*/
 @import 'core/_mixins.scss';
 @import 'core/_variables.scss';
+@import 'core/_class-utils.scss';
 
 .page {
   margin:0;
@@ -19,6 +20,7 @@
 
 /* layouts and components imports*/
 @import 'layout/_header.scss';
+@import 'components/_button-link.scss';
 @import 'components/_hero.scss';
 @import 'components/_main-article.scss';
 @import 'components/_main-section.scss';

@@ -9,8 +9,9 @@ $color-white: #ffffff;
 $color-blue-l: #8ccbea;
 $color-blue-m: #0271bc;
 $color-blue-d: #304268;
+$color-grey: #4a4a4a;
 
-$bg-menu: $color-blue-d;
+$bg-menu: $color-blue-m;
 $bg-button: $color-orange;
 $bg-section: $color-blue-l;
 $bg-footer: $color-blue-d;
@@ -20,7 +21,7 @@ $color-txt-tag: $color-blue-l;
 $color-txt-button-link: color-orange;
 $color-txt-button: $color-white;
 $color-txt-link: $color-white;
-
+$color-txt-article: $color-grey;
 
 /* Text font family*/
 $font-roboto-slab: 'Roboto Slab', serif;
@@ -30,35 +31,33 @@ $font-roboto: 'Roboto', sans-serif;
 
 /*text size*/
 $txt-xs: 14px;
-$txt-s: 16px;
+$txt-sm: 16px;
 $txt-md: 18px;
 $txt-lg: 20px;
 $txt-xl: 24px;
+$txt-xl-tablet: 26px;
+$txt-xl-desktop: 32px;
 $txt-xxl: 42px;
+$txt-xxl-tablet: 80px;
+$txt-xxl-desktop: 100px;
 
-$txt-main-title: $txt-xxl;
-$txt-sub-title: $txt-xl;
-$txt-hero: $txt-s;
+$txt-hero: $txt-sm;
 $txt-tag: $txt-xs;
 $txt-text: $txt-md;
 $txt-section-subtitle: $txt-md;
 $txt-button: $txt-lg;
-$txt-links: $txt-s;
+$txt-links: $txt-sm;
 $txt-footer: $txt-xs;
 
-@media all and (min-width: $tablet) {
-  $txt-xl: 32px;
-  $txt-xxl: 80px;
 
-  $txt-hero: $txt-xl;
-  $txt-section-subtitle: $txt-xl;
-  $txt-text: $txt-lg;
-}
-@media all and (min-width: $desktop) {
-  $txt-xl: 26px;
-  $txt-xxl: 100px;
-  $txt-tag: $txt-s;
-}
 
+
+$line-size-sm: 20px;
+$line-size-md: 30px;
+$line-size-lg: 45px;
+
+$line-size-xl: 55px;
+$line-size-xl-tablet: 106px;
+$line-size-xl-desktop: 132px;
 
 

@@ -1,15 +1,11 @@
 .menu__header {
-  background-color: #0271bc;
-  position: fixed;
-  top: 0;
-  left: 0;
+  background-color: $bg-menu;
+  @include position-fixed ();
   width: 44px;
   height: 44px;
-  text-align: center;
-  vertical-align: center;
 }
 .menu__button {
   @include button-reset();
-  margin-top: 15px;
-
+  width: 100%;
+  padding: 13.5px 14px;
 }

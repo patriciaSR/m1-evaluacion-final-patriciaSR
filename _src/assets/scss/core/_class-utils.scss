@@ -1,0 +1,40 @@
+.txt__title--lg {
+  font-size: $txt-xxl;
+  line-height: $line-size-xl;
+  @media all and (min-width: $tablet) {
+    font-size: $txt-xxl-tablet;
+    line-height: $line-size-xl-tablet;
+  }
+  @media all and (min-width: $desktop) {
+    font-size: $txt-xxl-desktop;
+    line-height: $line-size-xl-desktop;
+  }
+}
+
+.txt__title--md {
+  font-size: $txt-xl;
+  line-height: $line-size-md;
+  @media all and (min-width: $tablet) {
+    font-size: $txt-xl-tablet;
+    line-height: $line-size-lg;
+  }
+  @media all and (min-width: $desktop) {
+    font-size: $txt-xl-desktop;
+  }
+}
+
+
+.txt__tag {
+  font-size: $txt-xs;
+  @media all and (min-width: $desktop) {
+    font-size: $txt-sm;
+  }
+}
+
+.txt__article {
+  font-size: $txt-md;
+  @media all and (min-width: $tablet) {
+    font-size: $txt-lg;
+  }
+}
+
