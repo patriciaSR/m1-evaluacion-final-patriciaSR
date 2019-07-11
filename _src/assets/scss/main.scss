@@ -1,6 +1,21 @@
+/* core imports*/
+@import 'core/_mixins.scss';
+@import 'core/_variables.scss';
+
 .page {
   margin:0;
 }
-@import 'core/_mixins.scss';
+.container {
+  margin: 0 15px;
+  @media all and (min-width: $tablet) {
+    margin: 0 39px;
+  }
+  @media all and (min-width: $desktop) {
+    margin: 0 auto;
+    max-width: 730px;
+  }
+}
+
+/* layouts and components imports*/
 @import 'layout/_header.scss';
 @import 'components/_hero.scss';
