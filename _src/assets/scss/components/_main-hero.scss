@@ -1,4 +1,4 @@
-.page__hero {
+.hero {
   @include bg-img();
   height: 100vh;
   @include position-relative();
@@ -6,7 +6,7 @@
   text-align: center;
   @include flex-center();
 }
-.hero-flex {
+.hero__container {
   position: absolute;
   bottom: 0;
   @include flex-center();
@@ -32,7 +32,7 @@
   }
 }
 
-.next__button {
+.button--next {
   margin: 45px 0 53px;
   @media all and (min-width: $tablet) {
     margin: 30px 0 45px;

@@ -1,4 +1,4 @@
-.page__footer {
+.footer {
   background-color: $bg-footer;
   color: $color-txt-footer;
   text-align: center;
@@ -10,20 +10,20 @@
     transform: translate(50%, -50%);
   }
 }
-.menu-footer__list, .social-menu__list {
+.footer__menu-list, .footer__social-list {
   margin: 0;
   padding: 15px 0;
   list-style: none;
   font-size: $txt-links;
   text-transform: uppercase;
-  .menu-footer__link {
+  .footer__link {
   @include link-none ($color-txt-link);
     &:hover {
       color: $color-orange-AA;
      }
   }
 }
-.copy__text {
+.footer__copy-text {
   margin: 0;
   font-size: $txt-footer;
   .emoji-love {
@@ -37,16 +37,16 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
-    .copy {
+    .footer__copy {
       order: -1;
     }
 
   }
 }
 
-.up__button {
+.footer__button {
   position: absolute;
   right: 50%;
-  bottom: 0;
-  transform: translateX(50%);
+  top: 0;
+  transform: translate(50%, -50%);
 }

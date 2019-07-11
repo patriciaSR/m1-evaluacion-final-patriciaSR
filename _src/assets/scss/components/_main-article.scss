@@ -1,10 +1,14 @@
 
-.page__article {
+.article {
   padding: 30px 0 45px;
   line-height: $line-size-md;
 }
 .article__tag {
- color: $color-txt-tag;
+  color: $color-txt-tag;
+  font-size: $txt-xs;
+  @media all and (min-width: $desktop) {
+    font-size: $txt-sm;
+  }
 }
 .article__title {
   font-family: $font-roboto-slab;
@@ -12,23 +16,13 @@
 .article__text {
   color: $color-txt-article;
   margin: 15px 0 30px;
+  font-size: $txt-md;
   @media all and (min-width: $tablet) {
+    font-size: $txt-lg;
     max-width: 690px;
   }
   @media all and (min-width: $desktop) {
     max-width: 730px;
     }
-}
-.article__link {
-  font-size: $txt-button;
-  @include link-none ($color-orange);
-  border: solid 2px $color-orange;
-  border-radius: 22.5px;
-  padding: 10px 25px;
-  @media all and (min-width:$tablet) {
-    padding: 10px 33px;
-  }
-  @media all and (min-width:$desktop) {
-    padding: 10px 67px;
-  }
+
 }

@@ -38,18 +38,35 @@
 }
 
 
-.txt__tag {
-  font-size: $txt-xs;
-  @media all and (min-width: $desktop) {
-    font-size: $txt-sm;
-  }
+/*buttons*/
+.button--reset {
+  @include button-reset();
+}
+.button--circle {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.txt__article {
-  margin: 0;
-  font-size: $txt-md;
-  @media all and (min-width: $tablet) {
-    font-size: $txt-lg;
+.button--bubble {
+  font-size: $txt-button;
+  @include link-none ($color-orange);
+  border: solid 2px $color-orange;
+  border-radius: 22.5px;
+  padding: 10px 25px;
+  @media all and (min-width:$tablet) {
+    padding: 10px 33px;
+  }
+  @media all and (min-width:$desktop) {
+    padding: 10px 67px;
   }
 }
-
+.button--orange {
+  background-color: $color-orange;
+  color: $color-txt-button;
+}
