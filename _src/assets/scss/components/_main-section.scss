@@ -65,15 +65,20 @@
 }
 .button-purchase {
   @include button-reset();
-  background-color: #f26002;
+  background-color: $bg-button;
+  color: $color-txt-button;
+  width: 184px;
+  height: 45px;
   font-size: 20px;
   text-decoration: none;
   border-radius: 22.5px;
   padding: 10px 25px;
   text-align: center;
-  .button-more__link {
-    color: #fff;
-    text-decoration: none;
+  @media all and (min-width: $tablet) {
+    width: 210px;
+  }
+  @media all and (min-width: $tablet) {
+    width: 255px;
   }
 }
 
