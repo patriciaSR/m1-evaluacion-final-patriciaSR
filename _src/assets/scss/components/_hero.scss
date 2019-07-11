@@ -22,6 +22,13 @@
   margin: 0 0 10px;
   font-family: $font-roboto-slab;
   text-transform: uppercase;
+  max-width: 290px;
+  @media all and (min-width: $tablet) {
+    max-width: 690px;
+  }
+  @media all and (min-width: $desktop) {
+    max-width: 730px;
+    }
 }
 .hero__text {
   margin: 0;

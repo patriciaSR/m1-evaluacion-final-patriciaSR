@@ -11,9 +11,15 @@
 .article__text {
   color: $color-txt-article;
   margin-bottom: 30px;
+  @media all and (min-width: $tablet) {
+    max-width: 690px;
+  }
+  @media all and (min-width: $desktop) {
+    max-width: 730px;
+    }
 }
 .article__link {
-  font-size: 20px;
+  font-size: $txt-button;
   @include link-none ($color-orange);
   border: solid 2px $color-orange;
   border-radius: 22.5px;
