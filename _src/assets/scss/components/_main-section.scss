@@ -4,6 +4,27 @@
   line-height: $line-size-md;
   text-align: center;
 }
+.purchase-option {
+  margin: 45px 0 60px;
+}
+.purchase-option__title, .purchase-option__text {
+  max-width: 180px;
+  margin: 0 auto;
+  @media all and (min-width:$tablet) {
+    max-width: 100%;
+    padding: 0 5px;
+    }
+  @media all and (min-width:$desktop) {
+    max-width: 353px;
+    }
+}
+.purchase-option__text {
+  @media all and (min-width:$tablet) {
+      margin-top: 14px;
+  }
+}
+
+/*Grid tablet and desktop*/
 .purchase-container {
   @media all and (min-width:$tablet){
     display: grid;
@@ -44,25 +65,9 @@
 }
 
 
-.purchase-option {
-  margin: 45px 0 60px;
-}
-.purchase-option__title, .purchase-option__text {
-  max-width: 180px;
-  margin: 0 auto;
-  @media all and (min-width:$tablet) {
-    max-width: 100%;
-    padding: 0 5px;
-    }
-  @media all and (min-width:$desktop) {
-    max-width: 353px;
-    }
-}
-.purchase-option__text {
-  @media all and (min-width:$tablet) {
-      margin-top: 14px;
-  }
-}
+
+
+/* Button More Reasons*/
 .button-purchase {
   @include button-reset();
   background-color: $bg-button;
