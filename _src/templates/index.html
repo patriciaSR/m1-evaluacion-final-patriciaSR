@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Adalab Web Starter Kit</title>
-  <link rel="icon" href="favicon.png"/>
-	<link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+  <title>Anonymous Proxy</title>
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
-  <div class="page">
-    <partial src="_header.html" label="Header"></partial>
-    <partial src="_main.html" label="Main"></partial>
-    <partial src="_link.html" aClass="link__adalab" text="Adalab" url="https://adalab.es"></partial>
-    <partial src="_link.html" aClass="link__github" text="GitHub" url="https://github.com"></partial>
-  </div>
+
+<body class="page">
+  <header class="page__header" id="header">
+    <nav class="menu__header">
+      <a class="menu__link href=" #">
+        <img class="menu__icon" scr="assets/images/ico-menu.svg" alt="icono menu">
+      </a>
+    </nav>
+  </header>
+  <main class="page__main">
+    <hero class="page__hero">
+      <div class="container">
+        <h1 class="hero__title">Anonymous Proxy</h1>
+        <p class="hero__text">
+          Lorem ipsum dolor, sit amet
+        </p>
+      </div>
+    </hero>
+
+
+    <div class="main__container">
+      <article class="page__article">
+        <div class="container">
+          <span class="article__tag">Insomnia tips</span>
+          <h2 class="article__title">Looking throw a windows</h2>
+          <p class="article__text">
+            Sunt recusandae voluptatibus dolores accusantium ea iure earum! Nobis maxime iste facere doloremque!
+            Praesentium obcaecati perspiciatis
+          </p>
+          <button class="button-article button">
+            <a href="#ArticlePage">Go</a>
+          </button>
+        </div>
+      </article>
+
+      <section class="page__purchase">
+        <div class="container">
+          <h2 class="purchase__title">3 Reasons to purchase</h2>
+          <div class="purchase__options">
+            <div class="purchase-option purchase-1">
+              <h3 class="purchase-option__title">Lalala</h3>
+              <p class="purchase-option__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="purchase-option purchase-2">
+              <h3 class="purchase-option__title">Lalala</h3>
+              <p class="purchase-option__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="purchase-option purchase-3">
+              <h3 class="purchase-option__title">Lalala</h3>
+              <p class="purchase-option__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <button class="button-purchase button">
+            <a href="#PurchasePage">More Reasons</a>
+          </button>
+      </section>
+    </div>
+    <button class="button-up button">
+      <a href="#header">
+        <img src="assets/images/ico-arrows.svg" alt="" class="button-up icon-up">
+      </a>
+    </button>
+  </main>
+
+  <footer class="page__footer">
+    <div class="container footer__container">
+      <div class="copy">
+        <span class="copy__text">©2017</span>
+        <span class="copy__text">we ❤︎ components</span>
+      </div>
+      <nav class="menu-footer">
+        <ul class="menu-footer__list">
+          <li class="menu-option option-1">
+            <a href="#articles" class="menu-footer__link">Articles</a>
+          </li>
+          <li class="menu-option option-2">
+            <a href="#books" class="menu-footer__link">Books</a>
+          </li>
+          <li class="menu-option option-3">
+            <a href="#events" class="menu-footer__link">Events</a>
+          </li>
+          <li class="menu-option option-4">
+            <a href="#reasons" class="menu-footer__link">Reasons</a>
+          </li>
+          <li class="menu-option option-5">
+            <a href="#tips" class="menu-footer__link">Tips</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social-menu">
+        <ul class="social-menu__list">
+          <li class="social-option social-1">
+            <a href="#twitter" class="menu-footer__link">Twitter</a>
+          </li>
+          <li class="social-option social-2">
+            <a href="#instagram" class="menu-footer__link">Instagram</a>
+          </li>
+          <li class="social-option social-3">
+            <a href="#mastodon" class="menu-footer__link">Mastodon.Social</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
