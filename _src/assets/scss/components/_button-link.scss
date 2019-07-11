@@ -1,4 +1,4 @@
-@include button-reset();
+.button__link {
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -8,3 +8,4 @@
   right: 50%;
   bottom: 0;
   transform: translateX(50%);
+}
