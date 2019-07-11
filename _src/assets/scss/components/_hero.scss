@@ -1,21 +1,18 @@
 .page__hero {
   @include bg-img();
   height: 100vh;
-  @include flex-center();
+  @include position-relative();
   color: $color-txt-title;
   text-align: center;
+  @include flex-center();
 }
 .hero-flex {
-  transform: translatey(50%);
-  @include position-relative();
-  height: 50%;
+  position: absolute;
+  bottom: 0;
   margin-bottom: 53px;
-  @media all and (min-width: $tablet) {
-    margin-bottom: 45px;
-  }
-  @media all and (min-width: $desktop) {
-    margin-bottom: 88px;
-  }
+  @include flex-center();
+  flex-direction: column;
+
 }
 
 .hero__title {
@@ -37,6 +34,7 @@
 }
 
 .next__button {
+  margin-top: 45px;
   @media all and (min-width: $desktop) {
     bottom: -35px;
   }
