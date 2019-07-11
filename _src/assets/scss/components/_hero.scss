@@ -20,8 +20,6 @@
 
 .hero__title {
   margin: 0 0 10px;
-  font-family: $font-roboto-slab;
-  text-transform: uppercase;
   max-width: 290px;
   @media all and (min-width: $tablet) {
     max-width: 690px;

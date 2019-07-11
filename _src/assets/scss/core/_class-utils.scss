@@ -1,6 +1,8 @@
 .txt__title--lg {
   font-size: $txt-xxl;
   line-height: $line-size-xl;
+  text-transform: uppercase;
+  font-family: $font-roboto-slab;
   @media all and (min-width: $tablet) {
     font-size: $txt-xxl-tablet;
     line-height: $line-size-xl-tablet;
@@ -14,6 +16,8 @@
 .txt__title--md {
   font-size: $txt-xl;
   line-height: $line-size-md;
+  text-transform: capitalize;
+  font-family: $font-roboto-slab;
   @media all and (min-width: $tablet) {
     font-size: $txt-xl-tablet;
     line-height: $line-size-lg;
