@@ -1,2 +1,6 @@
+.page {
+  margin:0;
+}
+@import 'core/_mixins.scss';
 @import 'layout/_header.scss';
 @import 'components/_hero.scss';

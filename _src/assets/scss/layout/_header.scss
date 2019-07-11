@@ -3,4 +3,13 @@
   position: fixed;
   top: 0;
   left: 0;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  vertical-align: center;
+}
+.menu__button {
+  @include button-reset();
+  margin-top: 15px;
+
 }
