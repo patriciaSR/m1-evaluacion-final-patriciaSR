@@ -1,0 +1,31 @@
+.page__purchase {
+  padding: 30px 0 60px;
+  background-color: #eff9ff;
+  line-height: 30px;
+  text-align: center;
+}
+.purchase__options {
+max-width: 180px;
+margin: 0 auto;
+text-align: center;
+}
+.purchase-option {
+  margin: 45px 0;
+}
+.purchase-option__title, .purchase-option__text {
+  margin: 0;
+  font-size: 18px;
+}
+.button-purchase {
+  @include button-reset();
+  background-color: #f26002;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 22.5px;
+  padding: 10px 25px;
+  text-align: center;
+  .button-more__link {
+    color: #fff;
+    text-decoration: none;
+  }
+}
