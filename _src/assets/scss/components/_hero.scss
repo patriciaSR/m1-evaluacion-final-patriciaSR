@@ -9,7 +9,6 @@
 .hero-flex {
   position: absolute;
   bottom: 0;
-  margin-bottom: 53px;
   @include flex-center();
   flex-direction: column;
 
@@ -34,9 +33,12 @@
 }
 
 .next__button {
-  margin-top: 45px;
+  margin: 45px 0 53px;
+  @media all and (min-width: $tablet) {
+    margin: 30px 0 45px;
+  }
   @media all and (min-width: $desktop) {
-    bottom: -35px;
+    margin: 30px 0 13px;
   }
 }
 
