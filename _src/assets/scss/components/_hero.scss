@@ -26,15 +26,19 @@
   }
   @media all and (min-width: $desktop) {
     max-width: 730px;
-    }
+  }
 }
 .hero__text {
   margin: 0;
   font-size: $txt-sm;
   @media all and (min-width: $tablet) {
     font-size: $txt-xl;
-    }
+  }
 }
 
-
+.next__button {
+  @media all and (min-width: $desktop) {
+    bottom: -35px;
+  }
+}
 
