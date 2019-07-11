@@ -52,7 +52,6 @@
 
 .next__button {
   @include button-reset();
-  display: inline-block;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -61,5 +60,8 @@
   right: 50%;
   bottom: 0;
   transform: translateX(50%);
+  display:flex;
+  justify-content: center;
 }
+
 

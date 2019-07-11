@@ -1,0 +1,10 @@
+@include button-reset();
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: white;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  transform: translateX(50%);
