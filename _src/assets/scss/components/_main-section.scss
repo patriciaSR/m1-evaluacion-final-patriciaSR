@@ -4,7 +4,7 @@
   line-height: $line-size-md;
   text-align: center;
 }
-.page__purchase-container {
+.purchase-container {
   @media all and (min-width:$tablet){
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -36,6 +36,11 @@
 
     }
 }
+.purchase-container.container {
+  max-width: 100%;
+  padding: 0 85px;
+}
+
 .purchase__options {
 max-width: 180px;
 margin: 0 auto;

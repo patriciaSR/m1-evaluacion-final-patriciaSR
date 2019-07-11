@@ -11,7 +11,7 @@
 }
 .article__text {
   color: $color-txt-article;
-  margin-bottom: 30px;
+  margin: 15px 0 30px;
   @media all and (min-width: $tablet) {
     max-width: 690px;
   }

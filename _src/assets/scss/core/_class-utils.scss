@@ -14,6 +14,7 @@
 }
 
 .txt__title--md {
+  margin: 0;
   font-size: $txt-xl;
   line-height: $line-size-md;
   text-transform: capitalize;
@@ -36,6 +37,7 @@
 }
 
 .txt__article {
+  margin: 0;
   font-size: $txt-md;
   @media all and (min-width: $tablet) {
     font-size: $txt-lg;
