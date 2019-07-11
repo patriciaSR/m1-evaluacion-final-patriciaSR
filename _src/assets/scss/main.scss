@@ -4,6 +4,7 @@
 
 .page {
   margin:0;
+  font-family: $font-roboto;
 }
 .container {
   margin: 0 15px;
@@ -19,3 +20,5 @@
 /* layouts and components imports*/
 @import 'layout/_header.scss';
 @import 'components/_hero.scss';
+@import 'components/_main-article.scss';
+
