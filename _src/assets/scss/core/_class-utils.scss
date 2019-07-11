@@ -27,6 +27,15 @@
     font-size: $txt-xl-desktop;
   }
 }
+.txt__title--sm {
+  margin: 0;
+  font-size: $txt-md;
+  line-height: $line-size-md;
+  font-family: $font-roboto-slab;
+  @media all and (min-width: $tablet) {
+    font-size: $txt-xl;
+  }
+}
 
 
 .txt__tag {
