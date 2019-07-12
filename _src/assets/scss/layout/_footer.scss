@@ -17,10 +17,10 @@
   font-size: $txt-links;
   text-transform: uppercase;
   .footer__link {
-  @include link-none ($color-txt-link);
+    @include link-none ($color-txt-link);
     &:hover {
       color: $color-orange-AA;
-     }
+    }
   }
 }
 .footer__copy-text {
@@ -49,4 +49,9 @@
   right: 50%;
   top: 0;
   transform: translate(50%, -50%);
+  transition: transform ease 1.5s, border ease 0.5s;
+  &:hover {
+    transform: translate(50%, -80%);
+    border: 1px solid $color-orange;
+  }
 }
