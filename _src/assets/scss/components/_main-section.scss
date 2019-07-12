@@ -24,7 +24,10 @@
 }
 
 /*Grid tablet and desktop*/
-.purchase__container {
+.purchase__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   @media all and (min-width: $tablet){
     display: grid;
     grid-template-columns: repeat(3,1fr);
