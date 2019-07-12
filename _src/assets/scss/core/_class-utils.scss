@@ -59,6 +59,12 @@
   border: solid 2px $color-orange;
   border-radius: 22.5px;
   padding: 10px 25px;
+  transition: background-color ease 0.5s, color ease 0.5s;
+  &:hover {
+    background-color: $color-orange;
+    color: $color-txt-button;
+  }
+
   @media all and (min-width:$tablet) {
     padding: 10px 33px;
   }
@@ -69,4 +75,9 @@
 .button--orange {
   background-color: $color-orange;
   color: $color-txt-button;
+  transition: background-color ease 0.5s, color ease 0.5s;
+  &:hover {
+    background-color: $color-white;
+    color: $color-orange;
+  }
 }
