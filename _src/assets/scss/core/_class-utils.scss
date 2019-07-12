@@ -48,9 +48,7 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: white;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center();
 }
 
 .button--bubble {
