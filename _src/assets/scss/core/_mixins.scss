@@ -5,12 +5,19 @@
   cursor: pointer;
 }
 
+@mixin link-none ($color) {
+  color: $color;
+  text-decoration: none;
+}
+
 @mixin bg-img {
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/*positions*/
 
 @mixin flex-center {
   display: flex;
@@ -31,7 +38,4 @@
 }
 
 
-@mixin link-none ($color) {
-  color: $color;
-  text-decoration: none;
-}
+

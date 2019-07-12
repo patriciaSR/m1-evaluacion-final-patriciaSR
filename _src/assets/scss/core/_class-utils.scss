@@ -1,3 +1,5 @@
+/*titles*/
+
 .txt__title--lg {
   font-size: $txt-xxl;
   line-height: $line-size-xl;
@@ -62,7 +64,6 @@
     background-color: $color-orange;
     color: $color-txt-button;
   }
-
   @media all and (min-width:$tablet) {
     padding: 10px 33px;
   }
@@ -70,6 +71,7 @@
     padding: 10px 67px;
   }
 }
+
 .button--orange {
   background-color: $color-orange;
   color: $color-txt-button;
