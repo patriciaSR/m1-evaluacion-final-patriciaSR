@@ -1,8 +1,8 @@
-
 .article {
   padding: 30px 0 45px;
   line-height: $line-size-md;
 }
+
 .article__tag {
   color: $color-txt-tag;
   font-size: $txt-xs;
@@ -10,9 +10,11 @@
     font-size: $txt-sm;
   }
 }
+
 .article__title {
   font-family: $font-roboto-slab;
 }
+
 .article__text {
   color: $color-txt-article;
   margin: 15px 0 30px;

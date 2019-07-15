@@ -29,6 +29,7 @@
     font-size: $txt-xl-desktop;
   }
 }
+
 .txt__title--sm {
   margin: 0;
   font-size: $txt-md;
@@ -41,9 +42,11 @@
 
 
 /*buttons*/
+
 .button--reset {
   @include button-reset();
 }
+
 .button--circle {
   display: inline-block;
   width: 45px;
