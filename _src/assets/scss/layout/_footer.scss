@@ -31,12 +31,9 @@
   position: relative;
   .emoji-love {
     color: $color-orange;
-    transition: animation-name ease 1s;
-    &:hover {
     animation-name: heart-beat;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-  }
   }
 }
 
