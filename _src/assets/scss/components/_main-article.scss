@@ -13,17 +13,30 @@
 
 .article__title {
   font-family: $font-roboto-slab;
+  @media all and (min-width: $tablet) {
+    order: -1;
+  }
+
 }
 
 .article__text {
   color: $color-txt-article;
-  margin: 15px 0 30px;
+  margin: 15px 0 50px;
   font-size: $txt-md;
   @media all and (min-width: $tablet) {
+    margin: 15px 0 30px;
     font-size: $txt-lg;
     max-width: 690px;
   }
   @media all and (min-width: $desktop) {
     max-width: 730px;
+  }
+}
+
+.article-container {
+  @media all and (min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
